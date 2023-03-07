@@ -22,7 +22,7 @@ public class Address {
     @Column(name = "city")
     private String city;
 
-//    @OneToOne(mappedBy = "address")
-//    private User user;
+    @OneToOne(mappedBy = "address")
+    private User user;
 
 }
