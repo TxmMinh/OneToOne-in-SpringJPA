@@ -1,1 +1,1 @@
-# @OneToOnein Spring JPA
+# @OneToOne in Spring JPA
