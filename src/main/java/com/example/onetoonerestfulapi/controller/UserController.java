@@ -76,7 +76,7 @@ public class UserController {
     thành đối tượng User
     */
     @PutMapping("/todo/{userId}")
-    public ResponseEntity<User> editTodo(@PathVariable(name = "userId") Long userId,
+    public ResponseEntity<User> editUser(@PathVariable(name = "userId") Long userId,
                          @RequestBody User user){
         User tempuser = userService.findById(userId);
         if (tempuser != null) {
